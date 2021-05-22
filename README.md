@@ -14,6 +14,6 @@ The 'Leader' key is "Space"
 
 ![onedarkMonitorDer](https://user-images.githubusercontent.com/37907710/118495911-a7970d00-b6f1-11eb-8069-59430b116fa4.png)
 
-![oneDarkMonitorIzq](https://user-images.githubusercontent.com/37907710/118495943-af56b180-b6f1-11eb-865e-edec3da88de8.png)
+![neovim gruvbox](https://user-images.githubusercontent.com/37907710/119231776-946cae80-baf0-11eb-88aa-a87d5994a866.png)
 
 ![oneDarkBgSoli](https://user-images.githubusercontent.com/37907710/118495967-b382cf00-b6f1-11eb-97f7-d7530f2bbddd.png)
