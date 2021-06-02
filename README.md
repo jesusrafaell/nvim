@@ -1,4 +1,4 @@
-# Vim Configuration
+# Vim Configuration Windows 10
 Config vim for **Neovim**
 
 ## Generel settings:
