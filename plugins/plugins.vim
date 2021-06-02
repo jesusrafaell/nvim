@@ -51,7 +51,6 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'yggdroot/indentline'
 Plug 'lukas-reineke/indent-blankline.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
-"Plug 'lilydjwg/colorizer'
 
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'

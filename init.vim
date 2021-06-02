@@ -43,5 +43,18 @@ source ~/AppData/Local/nvim/plugins/plugins.vim
 source ~/AppData/Local/nvim/plugins/plug-config.vim
 source ~/AppData/Local/nvim/themes/theme-config.vim
 "--------------------------------Plugins Config--------------------------------------------
-"
-hi Normal guibg=#191C21 
+
+set t_Co=256
+set termguicolors
+"set background=dark
+let g:tokyonight_style = 'night' " available: night, storm
+let g:tokyonight_enable_italic = 0
+"colorscheme tokyonight
+"colorscheme solarized8
+colorscheme onedark
+"colorscheme gruvbox
+"hi Normal guibg=#121212
+"hi nonText guibg=NONE
+hi Normal guibg=#111417
+hi LineNr guibg=NONE
+hi CursorLineNr guifg=yellow 
