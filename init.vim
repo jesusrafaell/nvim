@@ -1,4 +1,3 @@
-"NeoVim windows 
 syntax on
 set number 
 set relativenumber
@@ -40,8 +39,8 @@ set diffopt+=vertical
 
 "-------------------------------Sources-------------------------------
 source ~/AppData/Local/nvim/plugins/plugins.vim
-source ~/AppData/Local/nvim/plugins/plug-config.vim
 source ~/AppData/Local/nvim/themes/theme-config.vim
+source ~/AppData/Local/nvim/plugins/plug-config.vim
 "--------------------------------Plugins Config--------------------------------------------
 
 set t_Co=256
@@ -50,11 +49,12 @@ set termguicolors
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 "colorscheme tokyonight
-"colorscheme solarized8
-colorscheme onedark
+colorscheme solarized8
+"colorscheme onedark
 "colorscheme gruvbox
 "hi Normal guibg=#121212
 "hi nonText guibg=NONE
-hi Normal guibg=#111417
-hi LineNr guibg=NONE
+"hi Normal guibg=#111417
+hi Normal guibg=#00242E
+"hi LineNr guibg=NONE
 hi CursorLineNr guifg=yellow 

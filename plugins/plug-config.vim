@@ -107,12 +107,15 @@ let $FZF_DEFAULT_OPTS='--layout=reverse'
 
 " lightline
 let g:lightline = { 
-    \ 'colorscheme': 'onedark',
+    \ 'colorscheme': 'solarized',
     \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [], ['relativepath', 'modified']],
       \   'right': [ ['filetype', 'percent', 'lineinfo'], ['gitbranch']]
     \ },
 \}
+
+let g:NERDTreeDirArrowExpandable = '➤'
+let g:NERDTreeDirArrowCollapsible = '▼'
 
 "configuracion de tabs
 let g:indentLine_enabled = 1
