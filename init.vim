@@ -49,12 +49,26 @@ set termguicolors
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 "colorscheme tokyonight
-colorscheme solarized8
-"colorscheme onedark
+"colorscheme solarized8
+colorscheme onedark
 "colorscheme gruvbox
-"hi Normal guibg=#121212
+
+"onedark black
+"hi Normal guibg=none
+hi Normal guibg=#14161A
+"hi CursorLine guibg=#22252B
+hi CursorLine guibg=#23252B
+
+"solarized8 night
+"hi Normal guibg=#00232C
+"hi CursorLine guibg=#042F39
+
+"hi Normal guibg=#00242E
+"hi CursorLine guibg=#202020
+"hi Normal guibg=#161616
+"hi CursorLine guibg=#202020
+
+"hi CursorLine guibg=#161D28
 "hi nonText guibg=NONE
-"hi Normal guibg=#111417
-hi Normal guibg=#00242E
-"hi LineNr guibg=NONE
+hi LineNr guibg=NONE
 hi CursorLineNr guifg=yellow 
