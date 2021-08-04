@@ -46,18 +46,20 @@ source ~/AppData/Local/nvim/plugins/plug-config.vim
 set t_Co=256
 set termguicolors
 "set background=dark
-let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 "colorscheme tokyonight
-"colorscheme solarized8
-colorscheme onedark
+colorscheme solarized8
 "colorscheme gruvbox
+"colorscheme onedark
 
 "onedark black
+hi Normal guibg=none cterm=none
+hi Normal guibg=#0A0C10
+hi CursorLine guibg=#161A21
+hi LineNr guibg=NONE guifg=gray
+hi CursorLineNr guifg=yellow  guibg=none
 "hi Normal guibg=none
-hi Normal guibg=#14161A
-"hi CursorLine guibg=#22252B
-hi CursorLine guibg=#23252B
+"hi CursorLine guibg=#23252B
 
 "solarized8 night
 "hi Normal guibg=#00232C
@@ -70,5 +72,5 @@ hi CursorLine guibg=#23252B
 
 "hi CursorLine guibg=#161D28
 "hi nonText guibg=NONE
-hi LineNr guibg=NONE
+"hi LineNr guibg=NONE
 hi CursorLineNr guifg=yellow 
