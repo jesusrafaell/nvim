@@ -5,8 +5,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'lifepillar/vim-solarized8'
-Plug 'safv12/andromeda.vim'
-Plug 'ghifarit53/tokyonight-vim'
 
 " icons
 Plug 'ryanoasis/vim-devicons'

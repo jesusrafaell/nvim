@@ -48,14 +48,15 @@ set termguicolors
 "set background=dark
 let g:tokyonight_enable_italic = 0
 "colorscheme tokyonight
-colorscheme solarized8
+"colorscheme solarized8
 "colorscheme gruvbox
-"colorscheme onedark
+colorscheme onedark
 
 "onedark black
-hi Normal guibg=none cterm=none
+"hi Normal guibg=none cterm=none
 hi Normal guibg=#0A0C10
-hi CursorLine guibg=#161A21
+"hi CursorLine guibg=#161A21
+hi CursorLine guibg=#181C22
 hi LineNr guibg=NONE guifg=gray
 hi CursorLineNr guifg=yellow  guibg=none
 "hi Normal guibg=none
