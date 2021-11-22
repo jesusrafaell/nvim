@@ -105,13 +105,17 @@ let g:closetag_close_shortcut = '<leader>>'
 "vim fugitive
 let $FZF_DEFAULT_OPTS='--layout=reverse'
 
+" \ 'colorscheme': 'onedark',
 " lightline
 let g:lightline = { 
-    \ 'colorscheme': 'onedark',
+    \ 'colorscheme': 'gruvbox',
     \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [], ['relativepath', 'modified']],
       \   'right': [ ['filetype', 'percent', 'lineinfo'], ['gitbranch']]
     \ },
+    \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+  \ },
 \}
 
 let g:NERDTreeDirArrowExpandable = '➤'
@@ -123,3 +127,6 @@ let g:indentLine_char = '│'
 
 let g:indentLine_faster = 1
 let g:indentLine_fileTypeExclude=["nerdtree"]
+
+" Python, JavaScript, Go
+let g:kite_supported_languages = ['python', 'javascript', 'go']

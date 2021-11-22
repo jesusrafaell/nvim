@@ -45,33 +45,44 @@ source ~/AppData/Local/nvim/plugins/plug-config.vim
 
 set t_Co=256
 set termguicolors
-"set background=dark
-let g:tokyonight_enable_italic = 0
-"colorscheme tokyonight
+"set background=light
+set background=dark
 "colorscheme solarized8
-"colorscheme gruvbox
-colorscheme onedark
+colorscheme gruvbox
+"colorscheme onedark
+"colorscheme onehalflight
+
+"Light onehalf
+"hi CursorLine guibg=#DFDFDF
 
 "onedark black
-"hi Normal guibg=none cterm=none
-hi Normal guibg=#0A0C10
-"hi CursorLine guibg=#161A21
-hi CursorLine guibg=#181C22
+"hi Normal guibg=#0A0C10
+"hi CursorLine guibg=#2C3138
+
+hi Normal guibg=none cterm=none
+"hi Normal guibg=#000000
+
+"images curoline
+"hi CursorLine guibg=#212529
+"hi CursorLine guibg=#2A1515
+"20%
+"hi CursorLine guibg=#1F1A1A
+"30%
+"hi CursorLine guibg=#2C323D
+"30%
+"hi CursorLine guibg=#34383F
+"hi clear CursorLine
+"hi CursorLine guibg=#3E4859
+
+"hi CursorLine guibg=#22252B
+hi CursorLine guibg=#303030
 hi LineNr guibg=NONE guifg=gray
-hi CursorLineNr guifg=yellow  guibg=none
-"hi Normal guibg=none
-"hi CursorLine guibg=#23252B
+
+"hi CursorLine guibg=#3E4859
+hi CursorLineNr guifg=yellow guibg=none
+
+"hi LineNr guibg=NONE guifg=yellow
 
 "solarized8 night
 "hi Normal guibg=#00232C
 "hi CursorLine guibg=#042F39
-
-"hi Normal guibg=#00242E
-"hi CursorLine guibg=#202020
-"hi Normal guibg=#161616
-"hi CursorLine guibg=#202020
-
-"hi CursorLine guibg=#161D28
-"hi nonText guibg=NONE
-"hi LineNr guibg=NONE
-hi CursorLineNr guifg=yellow 

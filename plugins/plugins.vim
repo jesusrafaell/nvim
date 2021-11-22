@@ -5,6 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'lifepillar/vim-solarized8'
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 " icons
 Plug 'ryanoasis/vim-devicons'
@@ -15,10 +16,14 @@ Plug 'itchyny/lightline.vim'
 
 " tree
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " typeScript & syntax
 Plug 'sheerun/vim-polyglot'
 Plug 'jparise/vim-graphql'
+"Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'norcalli/nvim-colorizer.lua'
+Plug 'HerringtonDarkholme/yats.vim'
 
 " autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -53,8 +58,15 @@ Plug 'norcalli/nvim-colorizer.lua'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
 
+" test
+Plug 'tyewang/vimux-jest-test'
+Plug 'janko-m/vim-test'
+
 "git 
 Plug 'tpope/vim-fugitive'
+Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-rhubarb'
+Plug 'junegunn/gv.vim'
 
 Plug 'tpope/vim-repeat'
 
