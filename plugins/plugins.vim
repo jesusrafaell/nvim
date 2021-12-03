@@ -3,7 +3,10 @@ call plug#begin('~/.config/nvim/plugged')
 
 " theme
 Plug 'morhetz/gruvbox'
-Plug 'joshdick/onedark.vim'
+
+"Plug 'joshdick/onedark.vim'
+"Plug 'navarasu/onedark.nvim'
+
 Plug 'lifepillar/vim-solarized8'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 

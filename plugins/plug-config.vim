@@ -108,7 +108,7 @@ let $FZF_DEFAULT_OPTS='--layout=reverse'
 " \ 'colorscheme': 'onedark',
 " lightline
 let g:lightline = { 
-    \ 'colorscheme': 'gruvbox',
+    \ 'colorscheme': 'onedark',
     \ 'active': {
       \   'left': [ [ 'mode', 'paste' ], [], ['relativepath', 'modified']],
       \   'right': [ ['filetype', 'percent', 'lineinfo'], ['gitbranch']]

@@ -15,7 +15,7 @@ set noshowmode
 set signcolumn=no
 set pumheight=20 "height for snippets
 
-set guifont=JetBrainsMono\ NF:h12
+"set guifont=JetBrainsMono\ NF:h12
 
 "not create swap
 set nobackup
@@ -51,6 +51,8 @@ set background=dark
 colorscheme gruvbox
 "colorscheme onedark
 "colorscheme onehalflight
+"let g:onedark_style = 'warm'
+"colorscheme onedark
 
 "Light onehalf
 "hi CursorLine guibg=#DFDFDF
@@ -59,7 +61,6 @@ colorscheme gruvbox
 "hi Normal guibg=#0A0C10
 "hi CursorLine guibg=#2C3138
 
-hi Normal guibg=none cterm=none
 "hi Normal guibg=#000000
 
 "images curoline
@@ -74,10 +75,13 @@ hi Normal guibg=none cterm=none
 "hi clear CursorLine
 "hi CursorLine guibg=#3E4859
 
-"hi CursorLine guibg=#22252B
-hi CursorLine guibg=#303030
-hi LineNr guibg=NONE guifg=gray
 
+"hi CursorLine guibg=#303030
+
+hi CursorLine guibg=#364352
+hi Normal guibg=NONE cterm=NONE
+
+hi LineNr guibg=NONE guifg=gray
 "hi CursorLine guibg=#3E4859
 hi CursorLineNr guifg=yellow guibg=none
 
